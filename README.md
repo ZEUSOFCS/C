@@ -1,2 +1,2 @@
 # C
-C PROGRAMMING
+C PROGRAMMING Language
