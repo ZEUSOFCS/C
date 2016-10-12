@@ -1,4 +1,5 @@
 /*linear search example
+
 */
 
 #include <stdio.h>
@@ -7,6 +8,7 @@
 int linearSearch(int *a, int n, int key);
 
 int main(){
+	
 	//variable declaration
 	int arr[5], i, key;
 	
