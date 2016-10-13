@@ -1,0 +1,14 @@
+#include <stdio.h>
+ 
+int main()
+{
+  
+  int n;
+ 
+  printf("Enter an integer in decimal number system\n");
+  scanf("%d", &n);
+ 
+  printf("%d in binary number system is:\n", n);
+ 
+  return 0;
+}
