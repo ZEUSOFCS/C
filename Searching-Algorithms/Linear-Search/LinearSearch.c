@@ -1,6 +1,9 @@
-/*linear search example
-
-*/
+/*
+ Author      : DORIAN JAVA BROWN
+ Version     : 1.0
+ Copyright   : All Rights Reserve; You may use, distribute and modify this code.
+ Description : Linear Search
+ */
 
 #include <stdio.h>
 
