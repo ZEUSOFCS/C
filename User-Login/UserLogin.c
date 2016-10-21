@@ -11,7 +11,6 @@
 char username [24];
 char password [24];
  
-
 int main(){
   //functions
   Ask();
