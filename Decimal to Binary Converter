@@ -12,10 +12,10 @@ int main()
   
   int n;
  
-  printf("Enter an integer in decimal number system\n");
+  
+  printf("Enter a decimal number: ");
   scanf("%d", &n);
- 
-  printf("%d in binary number system is:\n", n);
+  printf("Binary number of %d is %d", decimal, decimalToBinary(decimal));
  
   return 0;
 }
