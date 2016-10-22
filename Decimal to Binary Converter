@@ -10,12 +10,19 @@
 int main()
 {
   
-  int n;
+  int decimal;
  
   
-  printf("Enter a decimal number: ");
-  scanf("%d", &n);
-  printf("Binary number of %d is %d", decimal, decimalToBinary(decimal));
+  printf("Enter The Decimal Number:");														
+  scanf("%d", &decimal);
  
+ //convert decimal numbers to binary
+		while (decimal >= 1)
+		{
+			remainder = dec % 2;
+			printf("Binary number of %d is %d", decimal, remainder);
+			dec = dec / 2;
+		}
+
   return 0;
 }
