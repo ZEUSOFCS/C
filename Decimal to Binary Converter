@@ -12,12 +12,11 @@ int main()
   
   int decimal;
  
-  
   printf("Enter The Decimal Number:");														
   scanf("%d", &decimal);
  
  //convert decimal numbers to binary
-		while (decimal >= 1)
+	while (decimal >= 1)
 		{
 			remainder = dec % 2;
 			printf("Binary number of %d is %d", decimal, remainder);
