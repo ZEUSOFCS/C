@@ -19,7 +19,7 @@ int main()
 	while (decimal >= 1)
 		{
 			remainder = dec % 2;
-			printf("Binary number of %d is %d", decimal, remainder);
+			printf("BINARY:", remainder);
 			dec = dec / 2;
 		}
 
