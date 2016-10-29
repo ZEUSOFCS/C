@@ -10,18 +10,27 @@
 int main()
 {
   
-  int decimal;
+  int remainder[31];
+	int decimal, i, k;
  
-  printf("Enter The Decimal Number:");														
+  printf("Enter The Decimal Number:");
   scanf("%d", &decimal);
  
-        //convert decimal numbers to binary
-	while (decimal >= 1)
+ //convert decimal numbers to binary
+		while (decimal > 0)
 		{
-			remainder = dec % 2;
-			printf("BINARY:", remainder);
-			dec = dec / 2;
+			k = decimal % 2;
+			i++;
+			decimal = decimal / 2;	
 		}
 
+	for(k = i - 1; k >= 0; k--) 
+	{
+			printf("%d",remainder[k]);
+	}
+	
+
+      printf("The binary version of the number you input, %d, is = ",decimal);
+      //getch();
   return 0;
 }
