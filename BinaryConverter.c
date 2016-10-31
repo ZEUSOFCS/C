@@ -11,7 +11,7 @@ int main()
 {
   
   int remainder[31];
-	int decimal, i, k;
+	int decimal, binary, i, k;
  
   printf("Enter The Decimal Number:");
   scanf("%d", &decimal);
@@ -19,7 +19,7 @@ int main()
  //convert decimal numbers to binary
 		while (decimal > 0)
 		{
-			k = decimal % 2;
+			binary = decimal % 2;
 			i++;
 			decimal = decimal / 2;	
 		}
