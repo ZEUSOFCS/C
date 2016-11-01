@@ -32,5 +32,6 @@ int main()
 
       printf("The binary version of the number you input, %d, is = ",decimal);
       //getch();
+	
   return 0;
 }
