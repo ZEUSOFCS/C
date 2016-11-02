@@ -6,32 +6,45 @@
  */
 
 #include <stdio.h>
- 
+
+void BinaryBuild(int i, int k, int decimal, int remainder[31]);
+
+
 int main()
 {
   
   int remainder[31];
-	int decimal, binary, i, k;
+	int decimal, binary, k, i = 0;
  
-  printf("Enter The Decimal Number:");
+	//user input
+  printf("\n Enter The Decimal Number: ");
   scanf("%d", &decimal);
  
- //convert decimal numbers to binary
-		while (decimal > 0)
-		{
-			binary = decimal % 2;
-			i++;
-			decimal = decimal / 2;	
-		}
-
-	for(k = i - 1; k >= 0; k--) 
+  //convert decimal numbers to binary
+  while (decimal > 0)
 	{
-			printf("%d",remainder[k]);
+		remainder[i] = decimal % 2;
+		decimal = decimal / 2;	
+		i++;
 	}
-	
-		
-      printf("The binary version of the number you input, %d, is = ",decimal);
-      //getch();
+
+	//user output
+	printf("\n\n\t\t\t %d = ", ((decimal + 1) * i * 4 -1));
+	BinaryBuild(i, k, decimal, remainder);
+  //getch();
 	
   return 0;
 }
+
+void BinaryBuild(int i, int k, int decimal, int remainder[])
+{
+
+	//building binary number
+	for(k = i - 1; k >= 0; k--) 
+	{
+		printf("%d", remainder[k]);
+	}
+	
+	printf("\n\n");
+}
+	
