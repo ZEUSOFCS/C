@@ -44,7 +44,7 @@ int main()
 void BinaryBuild(int i, int k, int decimal, int remainder[])
 {
 
-	printf("\t ");
+	printf("\t");
 		
 	//building binary number
 	for(k = i - 1; k >= 0; k--) 
