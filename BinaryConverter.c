@@ -14,13 +14,13 @@ int main()
 {
   
   int remainder[31];
-  int decimal, binary, k, i = 0;
+	int decimal, binary, k, i = 0;
 	
 	//user input
   printf("\n Enter The Decimal Number: ");
   scanf("%d", &decimal);
  
-	int Orgindecimal = decimal;						//value of orginal decemial
+	int Origindecimal = decimal;						//value of original decimal
 	
   //convert decimal numbers to binary
   while (decimal > 0)
@@ -31,9 +31,12 @@ int main()
 	}
 
 	//user output
-	printf("\n\n\t\t\t %d = ", Orgindecimal);
+	printf("\n\n DECIMAL VALUE \t\t BINARY VALUE");
+	printf("\n ------------- \t\t -------------");
+		
+	printf("\n\t %d  ", Origindecimal);
 	BinaryBuild(i, k, decimal, remainder);
-  //getch();
+ 	//getch();
 	
   return 0;
 }
@@ -41,6 +44,8 @@ int main()
 void BinaryBuild(int i, int k, int decimal, int remainder[])
 {
 
+	printf("\t ");
+		
 	//building binary number
 	for(k = i - 1; k >= 0; k--) 
 	{
