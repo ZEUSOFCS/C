@@ -14,7 +14,7 @@ int main()
 {
   
   int remainder[31];
-	int decimal, binary, k, i = 0;
+  int decimal, binary, k, i = 0;
 	
 	//user input
   printf("\n Enter The Decimal Number: ");
