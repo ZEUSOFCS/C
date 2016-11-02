@@ -15,11 +15,13 @@ int main()
   
   int remainder[31];
 	int decimal, binary, k, i = 0;
- 
+	
 	//user input
   printf("\n Enter The Decimal Number: ");
   scanf("%d", &decimal);
  
+	int Orgindecimal = decimal;						//value of orginal decemial
+	
   //convert decimal numbers to binary
   while (decimal > 0)
 	{
@@ -29,7 +31,7 @@ int main()
 	}
 
 	//user output
-	printf("\n\n\t\t\t %d = ", ((decimal + 1) * i * 4 -1));
+	printf("\n\n\t\t\t %d = ", Orgindecimal);
 	BinaryBuild(i, k, decimal, remainder);
   //getch();
 	
