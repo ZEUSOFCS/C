@@ -29,7 +29,7 @@ int main()
 			printf("%d",remainder[k]);
 	}
 	
-
+		
       printf("The binary version of the number you input, %d, is = ",decimal);
       //getch();
 	
