@@ -36,7 +36,7 @@ int main()
 	printf("\n\n DECIMAL VALUE \t\t BINARY VALUE");
 	printf("\n ------------- \t\t -------------");
 		
-	printf("\n %8d  ", Origindecimal);
+	printf("\n %d", Origindecimal);
 	BinaryBuild(i, k, decimal, remainder, space);
  	//getch();
 	
@@ -46,7 +46,7 @@ int main()
 void BinaryBuild(int i, int k, int decimal, int remainder[], char space)
 {
 
-	printf("%15c",space);
+	printf("%21c", space);
 		
 	//building binary number
 	for(k = i - 1; k >= 0; k--) 
