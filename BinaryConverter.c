@@ -2,7 +2,7 @@
  Author      : DORIAN JAVA BROWN
  Version     : 1.0
  Copyright   : All Rights Reserve; You may use, distribute and modify this code.
- Description : Decimal to Binary Converter
+ Description : Decimal to Binary Converter & Binary to Decimal Converter
  */
 
 #include <stdio.h>
