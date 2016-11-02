@@ -6,8 +6,9 @@
  */
 
 #include <stdio.h>
+#include <string.h>
 
-void BinaryBuild(int i, int k, int decimal, int remainder[31]);
+void BinaryBuild(int i, int k, int decimal, int remainder[31], char space);
 
 
 int main()
@@ -15,6 +16,7 @@ int main()
   
   int remainder[31];
 	int decimal, binary, k, i = 0;
+	char space;
 	
 	//user input
   printf("\n Enter The Decimal Number: ");
@@ -34,17 +36,17 @@ int main()
 	printf("\n\n DECIMAL VALUE \t\t BINARY VALUE");
 	printf("\n ------------- \t\t -------------");
 		
-	printf("\n\t %d  ", Origindecimal);
-	BinaryBuild(i, k, decimal, remainder);
+	printf("\n %8d  ", Origindecimal);
+	BinaryBuild(i, k, decimal, remainder, space);
  	//getch();
 	
   return 0;
 }
 
-void BinaryBuild(int i, int k, int decimal, int remainder[])
+void BinaryBuild(int i, int k, int decimal, int remainder[], char space)
 {
 
-	printf("\t");
+	printf("%15c",space);
 		
 	//building binary number
 	for(k = i - 1; k >= 0; k--) 
