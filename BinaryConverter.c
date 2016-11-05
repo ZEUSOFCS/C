@@ -13,7 +13,6 @@ void BinaryBuild(int i, int k, int decimal, int remainder[31], char space);
 
 int main()
 {
-  
   int remainder[31];
 	int decimal, binary, k, i = 0;
 	char space;
