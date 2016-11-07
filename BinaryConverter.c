@@ -44,7 +44,6 @@ int main()
 
 void BinaryBuild(int i, int k, int decimal, int remainder[], char space)
 {
-
 	printf("%21c", space);
 		
 	//building binary number
