@@ -22,9 +22,11 @@ int main ()
 {
 
  printf("Ohio University Student Information Database\n\n");
- printf
+ printf("------------------------------------------------");
+ 
+ // storing student info.
  printf("Student ID: ");
- scanf("%d", ID.student[i]);
+ scanf("%d", student[i].ID);
  
  printf("First Name: ");
  
