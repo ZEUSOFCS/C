@@ -11,16 +11,18 @@
 #include <stdio.h>
 
 
-struct student
+struct studentInfo
 {
   int ID;
   char firstName [20];
   char lastName [20];
-} char studentNum[5];
+} char student[5];
 
 int main () 
 {
 
+ printf("Ohio University Student Information Database\n\n");
+ printf
  printf("Student ID: ");
  scanf("%d", ID.student[i]);
  
