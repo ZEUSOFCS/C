@@ -21,7 +21,11 @@ struct student
 int main () 
 {
 
-
+ printf("Student ID: ");
+ 
+ printf("First Name: ");
+ 
+ printf("Last Name: ");
 
 
 }
