@@ -22,6 +22,7 @@ int main ()
 {
 
  printf("Student ID: ");
+ scanf("%d", ID.student[i]);
  
  printf("First Name: ");
  
