@@ -26,11 +26,12 @@ int main ()
  
  // storing student info.
  printf("Student ID: ");
- scanf("%d", student[i].ID);
+ scanf("%d", &student[i].ID);
  
  printf("First Name: ");
+ scanf("%s", student[i].firstName);
  
  printf("Last Name: ");
-
+ scanf("%s", student[i].lastName);
 
 }
