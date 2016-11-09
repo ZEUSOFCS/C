@@ -21,6 +21,8 @@ struct studentInfo
 int main () 
 {
 
+ int i = 0;
+ 
  printf("Ohio University Student Information Database\n\n");
  printf("------------------------------------------------");
  
