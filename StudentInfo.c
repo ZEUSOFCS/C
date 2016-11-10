@@ -10,6 +10,7 @@
 
 #include <stdio.h>
 
+void results();
 
 struct studentInfo
 {
@@ -36,4 +37,12 @@ int main ()
  printf("Last Name: ");
  scanf("%s", student[i].lastName);
 
+ results();
+}
+
+
+void results()
+{
+
+ 
 }
