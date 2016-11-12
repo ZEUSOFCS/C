@@ -9,34 +9,59 @@
 
 
 #include <stdio.h>
+#include <string.h>             /* string variable*/
+#include <stdlib.h>             /* exit() function */
+#include "studentInfo.h"        /* header file where structure is declared */
 
-void results();
-
-struct studentInfo
-{
-  int ID;
-  char firstName [20];
-  char lastName [20];
-} char student[5];
 
 int main () 
 {
 
- int i = 0;
+  // create .txt file
+  FILE *fp;
+  
+   /* write to the file */
+  fp = fopen("Database.txt", "w");
+  
+  if( fp == NULL)
+  {
+    printf("error retrieving file \n");
+    exit(0);
+  }
  
- printf("Ohio University Student Information Database\n\n");
- printf("------------------------------------------------");
+  /* write to the file */
+  fprintf(fp, "\n\nOhio University Student Information Database\n\n");
+  
+  
+  printf("\n\n\t\t\tOhio University Student Information Database\n");
+  printf("\t\t\t---------------------------------------------\n\n");
  
- // storing student info.
- printf("Student ID: ");
- scanf("%d", &student[i].ID);
+  int i;
+  
+  for(i = 0; i < 1; i++) 
+  {
+    
+  // storing student info.
+  printf("\n\nStudent ID: ");
+  scanf("%d", &students[i].ID);
  
- printf("First Name: ");
- scanf("%s", student[i].firstName);
+  printf("First Name: ");
+  scanf("%s", students[i].firstName);
  
- printf("Last Name: ");
- scanf("%s", student[i].lastName);
-
- results();
+  printf("Last Name: ");
+  scanf("%s", students[i].lastName);
+    
+  // store data to file
+  fprintf(fp, "Student ID \t\t\t\t First Name \t\t\t\t Last Name");
+  fprintf(fp, "\n--------------------------------------------------------------------------\n\n");
+  fprintf(fp, "%d%20s%21s\n", students[i].ID, students[i].firstName, students[i].lastName); 
+  
+  }
+  
+ 
+   
+  /* close the file */
+  fclose(fp);
+ 
 }
 
