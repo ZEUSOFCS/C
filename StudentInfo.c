@@ -40,8 +40,3 @@ int main ()
  results();
 }
 
-
-void results()
-{
-
-}
