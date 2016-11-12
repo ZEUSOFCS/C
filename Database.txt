@@ -1,0 +1,10 @@
+
+
+Ohio University Student Information Database
+
+Student ID 				 First Name 				 Last Name
+--------------------------------------------------------------------------
+
+10013              DORIA               BROWN
+10022              JOGHN               SMITH
+10055              JAY                 KAYUN
