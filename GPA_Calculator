@@ -1,0 +1,13 @@
+/*
+ Author      : DORIAN JAVA BROWN
+ Version     : N/A
+ Copyright   : All Rights Reserve; You may use, distribute and modify this code.
+ Description : This program calculates college student gpa
+ */
+
+
+
+#include <stdio.h>
+#include <string.h>             /* string variable*/
+#include <stdlib.h>             /* exit() function */
+#include "studentInfo.h"        /* header file where structure is declared */
