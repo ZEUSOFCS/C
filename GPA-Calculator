@@ -11,3 +11,14 @@
 #include <string.h>             /* string variable*/
 #include <stdlib.h>             /* exit() function */
 #include "studentInfo.h"        /* header file where structure is declared */
+
+int main ()
+{
+
+
+printf("\t\t Student Calculator \t\t");
+
+
+
+
+}
