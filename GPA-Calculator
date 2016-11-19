@@ -20,5 +20,14 @@ printf("\t\t Student Calculator \t\t");
 
 
 
+printf(" Course:  ");
+printf(" Grade:   ");
+printf(" Credits: ");
+
+
+
+
+
+
 
 }
