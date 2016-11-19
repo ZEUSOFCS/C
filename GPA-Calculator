@@ -27,7 +27,10 @@ printf(" Credits: ");
 // Grade Scale
 
 printf(" Grade \t\t 4.0 Scale");
-printf(
+printf("--------------------------------");
+printf("  A+ \t\t\t 4.0");
+
+
 
 
 
