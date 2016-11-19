@@ -24,8 +24,10 @@ printf(" Course:  ");
 printf(" Grade:   ");
 printf(" Credits: ");
 
+// Grade Scale
 
-
+printf(" Grade \t\t 4.0 Scale");
+printf(
 
 
 
