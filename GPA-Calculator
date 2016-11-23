@@ -35,6 +35,11 @@ printf("  B \t\t\t 4.0");
 printf("  B- \t\t\t 4.0");
 printf("  C+ \t\t\t 4.0");
 printf("  C \t\t\t 4.0");
+printf("  C- \t\t\t 4.0");
+printf("  D+ \t\t\t 4.0");
+printf("  D \t\t\t 4.0");
+printf("  D- \t\t\t 4.0");
+printf("  F \t\t\t 4.0");
 
 
 
