@@ -29,7 +29,7 @@ printf(" Credits: ");
 printf(" Grade \t\t 4.0 Scale");
 printf("--------------------------------");
 printf("  A \t\t\t 4.0");
-printf("  A- \t\t\t 4.0");
+printf("  A- \t\t\t 3.71");
 printf("  B+ \t\t\t 4.0");
 printf("  B \t\t\t 4.0");
 printf("  B- \t\t\t 4.0");
