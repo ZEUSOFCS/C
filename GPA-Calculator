@@ -19,7 +19,7 @@ int main ()
 printf("\t\t Student Calculator \t\t");
 
 
-
+while ()
 printf(" Course:  ");
 printf(" Grade:   ");
 printf(" Credits: ");
